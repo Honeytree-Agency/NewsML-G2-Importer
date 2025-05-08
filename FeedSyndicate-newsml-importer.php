@@ -4,8 +4,8 @@
  * Plugin URI: https://wordpress.feedsyndicate.com
  * Description: Automatically add ready to use full text news articles, images and content into your Wordpress site from FeedSyndicate using NewsML
  * Version: 1.2.2
- * Author: Honeytree.Agency
- * Author URI: https://www.feedsyndicate.com
+ * Author: Honeytree
+ * Author URI: https://www.honeytree.agency
  * Text Domain: FeedSyndicate
  * Domain Path: /languages
  */
