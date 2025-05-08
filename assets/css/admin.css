@@ -1,0 +1,143 @@
+.hide-popups {
+	display: none;
+	}
+
+td.title label {
+	font-weight: bold;
+	}
+
+#FeedSyndicateFeedWizardForm {
+	height: 80vh !important;
+	overflow-y: scroll;
+	}
+
+table.fs-form-table {
+	width: 100%;
+	}
+
+.fs-form-table td {
+	padding: 4px 10px;
+	}
+
+td.field > input[type=text],
+td.field > select {
+	width: 100%;
+	}
+
+td.field label {
+	display: block;
+	margin: 3px 0;
+	}
+
+td.label {
+	font-weight: bold;
+	}
+
+td.label a {
+	font-weight: normal;
+	cursor: pointer;
+	}
+
+td.submit {
+	padding-top: 12px;
+	border-top: 1px solid #e5e5e5;
+	}
+
+td.submit > input[type=submit],
+td.submit > input[type=button] {
+	float: right;
+	}
+
+label.error {
+	color: #a00;
+	}
+
+.ui-dialog {
+	position: absolute;
+	padding: 0;
+	width: 300px;
+	overflow: hidden;
+	background-color: #f6f6f6;
+	border: 1px solid #e5e5e5;
+	box-shadow: 3px 3px 12px rgba(0,0,0,0.04);
+	}
+.ui-dialog .ui-dialog-titlebar {
+	position: relative;
+	height:1.5em;
+	padding: .5em 1em .4em;
+	background-color: #ddd;
+	border-bottom: 2px solid #d8d8d8;
+	}
+.ui-dialog .ui-dialog-title {
+	position: relative;
+	margin-top: -2px;
+	font-size: 16px;
+	color: #999;
+	} 
+.ui-dialog .ui-dialog-titlebar-close {
+	position: absolute;
+	right: .3em;
+	top: 50%;
+	width: 19px;
+	margin: -10px 0 0 0;
+	padding: 1px;
+	height: 18px;
+	color: #a00;
+	}
+.ui-dialog .ui-dialog-titlebar-close span {
+	display: block;
+	margin: -4px;
+	}
+.ui-dialog .ui-dialog-content {
+	position: relative;
+	border: 0;
+	padding: .5em 1em;
+	background: none;
+	overflow: auto;
+	zoom: 1;
+	}
+.ui-dialog .ui-dialog-buttonpane {
+	text-align: left;
+	border-width: 1px 0 0 0;
+	background-image: none;
+	margin: .5em 0 0 0;
+	padding: .3em 1em .5em .4em;
+	}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+	float: right;
+	margin-bottom: .25em;
+	}
+.ui-dialog .ui-dialog-buttonpane button {
+	margin: .5em .4em .5em 0;
+	cursor: pointer;
+	}
+.ui-dialog .ui-resizable-se {
+	width: 14px;
+	height: 14px;
+	right: 3px;
+	bottom: 3px;
+	}
+.ui-draggable .ui-dialog-titlebar {
+	cursor: move;
+	}
+.ui-dialog-titlebar-close {
+	cursor: pointer;
+	color: #a00;
+	font-size: 1.5em;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	}
+.ui-dialog-titlebar-close:hover {
+	color: #dc3232;
+	}
+.ui-dialog-titlebar-close:before {
+	font: normal 20px dashicons;
+	vertical-align: top;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	line-height: 1em;
+	width: auto;
+	height: auto;
+	content: none;
